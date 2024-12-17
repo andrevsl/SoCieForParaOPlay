@@ -5,7 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kAXVRwTEr5tbZWlvJoIq-3" value="Dados:&lt;div&gt;RM Repetition Max&lt;/div&gt;&lt;div&gt;Force/Power evolution&lt;/div&gt;&lt;div&gt;Leg Force/Power&lt;/div&gt;&lt;div&gt;Upper Body Force/Power&lt;/div&gt;&lt;div&gt;Fadigue/Muscle Damage/Recovery&lt;/div&gt;&lt;div&gt;Muscle fibers Estimation&lt;/div&gt;&lt;div&gt;Aerobic Indicators&lt;/div&gt;&lt;div&gt;Anaerobic Indicators&lt;/div&gt;&lt;div&gt;Train Indicators: Heart Rate, Force, VO2 max, Calories, Estimated MET.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="290" y="150" width="230" height="230" as="geometry" />
+          <mxGeometry x="110" y="160" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kAXVRwTEr5tbZWlvJoIq-5" value="Tech Equipaments or Wise Science :&lt;div&gt;&lt;br&gt;&lt;div&gt;VBT devices&lt;/div&gt;&lt;div&gt;Force/Powe&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
