@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Página-1" id="DCfG3SepE51i3GugEhYG">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kAXVRwTEr5tbZWlvJoIq-3" value="Dados:&lt;div&gt;RM Repetition Max&lt;/div&gt;&lt;div&gt;Force/Power evolution&lt;/div&gt;&lt;div&gt;Leg Force/Power&lt;/div&gt;&lt;div&gt;Upper Body Force/Power&lt;/div&gt;&lt;div&gt;Fadiga&lt;/div&gt;&lt;div&gt;Muscle fibers Estimation&lt;/div&gt;&lt;div&gt;Aerobic Indicators&lt;/div&gt;&lt;div&gt;Anaerobic Indicators&lt;/div&gt;&lt;div&gt;Train Indicators: Heart Rate, Force, VO2 max, Calories, Estimated MET.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="210" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
