@@ -1,11 +1,19 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 
-app = Dash(__name__)
+#app = Dash(__name__)
+app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 app.layout = html.Div()
-app.layout = dbc.Container(html.P("My awesome dashboard will be here."),
+
+app.layout = dbc.Container(html.P("My awesome dashboard will be here.",
+                                  style={'color': '#010103'}),
                            fluid=True,
-                           className='dashboard-container')
+                           className='dashboard-container',
+                           style={
+                               'background-color': '#ffffff',
+                               'border-color': '#010103'
+                           })
+
 
 if __name__ == "__main__":
     app.run_server(debug=True, port=8050)
