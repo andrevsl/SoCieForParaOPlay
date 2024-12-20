@@ -21,12 +21,14 @@ fig = go.Figure(
     #     marker=dict(color=random.sample(['#ecf0f1']*500 + ["#3498db"]*500, 1000), line_width=1)
     # )
      data=[go.Bar(x=xdata, y=ydata)],
-    layout=go.Layout(
-        title=go.layout.Title(text="A Figure Specified By A Graph Object")
-    )
+    # layout=go.Layout(
+    #     title=go.layout.Title(text="A Figure Specified By A Graph Object",font_color="red")
+    # )
 )
 fig.update_layout(plot_bgcolor='#010103', width=790, height=730,
-                  xaxis_visible=False, yaxis_visible=False, showlegend=False, margin=dict(l=0,r=0,t=0,b=0))
+                  xaxis_visible=True, yaxis_visible=True, showlegend=False, margin=dict(l=0,r=0,t=0,b=0),title=dict(
+        text="Plot Title"
+    ))
 
 app.layout = dbc.Container([
     html.Div([
