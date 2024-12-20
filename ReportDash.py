@@ -5,14 +5,26 @@ import dash_bootstrap_components as dbc
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 app.layout = html.Div()
 
-app.layout = dbc.Container(html.P("My awesome dashboard will be here.",
-                                  style={'color': '#010103'}),
-                           fluid=True,
-                           className='dashboard-container',
-                           style={
-                               'background-color': '#ffffff',
-                               'border-color': '#010103'
-                           })
+app.layout = dbc.Container([
+    html.Div(style={
+        'width': 340,
+        'margin-left': 35,
+        'margin-top': 35,
+        'margin-bottom': 35,
+        'background-color': '#36f70f',
+    }),
+    html.Div(
+        style={
+            'width': 990,
+            'margin-top': 35,
+            'margin-right': 35,
+            'margin-bottom': 35,
+            'background-color': '#36f70f',
+        })
+],
+    fluid=True,
+    style={'display': 'flex'},
+    className='dashboard-container')
 
 
 if __name__ == "__main__":
