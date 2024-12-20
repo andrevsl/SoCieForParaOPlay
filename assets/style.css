@@ -1,5 +1,5 @@
 body {
-    background-color: #708090;
+    background-color: #000000;
 }
 
 .dashboard-container {
@@ -10,7 +10,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #010103;
-    border: 1px solid #cccccc;
+    border: 1px solid #060606;
     border-radius: 10px;
 }
 

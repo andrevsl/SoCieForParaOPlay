@@ -1,28 +1,18 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
-from FetchGGSheet import getGsheetPData
+
 import plotly.graph_objects as go
 import numpy as np
 import random
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
-LBResumodata=getGsheetPData('LBResumo')
-LBResumodata=getGsheetPData('LBResumo')
 
-LBResumodata=LBResumodata[LBResumodata.Exercise=='ISOBulgSquat']
-LBResumodatISOBulgSq=LBResumodata.loc[:,['Unnamed: 2','Unnamed: 8']]
-xdata=LBResumodatISOBulgSq.loc[:,'Unnamed: 2']
-ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
 fig = go.Figure(
-    # go.Scattergl(
-    #     x = np.random.randn(1000),
-    #     y = np.random.randn(1000),
-    #     mode='markers',
-    #     marker=dict(color=random.sample(['#ecf0f1']*500 + ["#3498db"]*500, 1000), line_width=1)
-    # )
-     data=[go.Bar(x=xdata, y=ydata)],
-    layout=go.Layout(
-        title=go.layout.Title(text="A Figure Specified By A Graph Object")
+    go.Scattergl(
+        x = np.random.randn(1000),
+        y = np.random.randn(1000),
+        mode='markers',
+        marker=dict(color=random.sample(['#ecf0f1']*500 + ["#3498db"]*500, 1000), line_width=1)
     )
 )
 fig.update_layout(plot_bgcolor='#010103', width=790, height=730,
