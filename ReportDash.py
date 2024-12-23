@@ -16,10 +16,10 @@ xdata=LBResumodatISOBulgSq.loc[:,'Unnamed: 2']
 ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
 
 
-fig = px.scatter(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
+fig = px.line(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
 
-fig.update_layout(plot_bgcolor='#010103',
-                  xaxis_visible=True, yaxis_visible=True, showlegend=False, margin=dict(l=0,r=0,t=2,b=0),title=dict(
+fig.update_layout(plot_bgcolor='#010103',paper_bgcolor='#010103',
+                  xaxis_visible=True, yaxis_visible=True, showlegend=True, margin=dict(l=0,r=0,t=4,b=0),title=dict(
         text="Plot Title"
     ))
 
