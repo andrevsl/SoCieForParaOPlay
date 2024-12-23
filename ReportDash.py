@@ -14,25 +14,12 @@ LBResumodata=LBResumodata[LBResumodata.Exercise=='ISOBulgSquat']
 LBResumodatISOBulgSq=LBResumodata.loc[:,['Unnamed: 2','Unnamed: 8']]
 xdata=LBResumodatISOBulgSq.loc[:,'Unnamed: 2']
 ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
-fig = go.Figure(
-    # go.Scattergl(
-    #     x = np.random.randn(1000),
-    #     y = np.random.randn(1000),
-    #     mode='markers',
-    #     marker=dict(color=random.sample(['#ecf0f1']*500 + ["#3498db"]*500, 1000), line_width=1)
-    # )
-    fig = px.line(x=[1, 2, 3, 4], y=[1, 4, 9, 16], title=r'$\alpha_{1c} = 352 \pm 11 \text{ km s}^{-1}$')
-fig.update_layout(
-    xaxis_title=r'$\sqrt{(n_\text{c}(t|{T_\text{early}}))}$',
-    yaxis_title=r'$d, r \text{ (solar radius)}$'
-)
-     data=[go.Line (x=xdata, y=ydata)],
-    # layout=go.Layout(
-    #     title=go.layout.Title(text="A Figure Specified By A Graph Object",font_color="red")
-    # )
-)
-fig.update_layout(plot_bgcolor='#010103', width=790, height=730,
-                  xaxis_visible=True, yaxis_visible=True, showlegend=False, margin=dict(l=0,r=0,t=0,b=0),title=dict(
+
+
+fig = px.scatter(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
+
+fig.update_layout(plot_bgcolor='#010103',
+                  xaxis_visible=True, yaxis_visible=True, showlegend=False, margin=dict(l=0,r=0,t=2,b=0),title=dict(
         text="Plot Title"
     ))
 
