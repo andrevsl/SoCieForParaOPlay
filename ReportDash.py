@@ -17,8 +17,7 @@ ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
 
 
 fig = px.line(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
-
-fig.update_layout(plot_bgcolor='#010103',paper_bgcolor='#010103',
+fig.update_layout(plot_bgcolor='#010103',paper_bgcolor='#010103',width=790, height=400,
                   xaxis_visible=True, yaxis_visible=True, showlegend=True, margin=dict(l=0,r=0,t=4,b=0),title=dict(
         text="Plot Title"
     ))
