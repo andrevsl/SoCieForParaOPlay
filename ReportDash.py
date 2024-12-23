@@ -4,6 +4,7 @@ from FetchGGSheet import getGsheetPData
 import plotly.graph_objects as go
 import numpy as np
 import random
+import plotly.express as px
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 LBResumodata=getGsheetPData('LBResumo')
@@ -20,7 +21,12 @@ fig = go.Figure(
     #     mode='markers',
     #     marker=dict(color=random.sample(['#ecf0f1']*500 + ["#3498db"]*500, 1000), line_width=1)
     # )
-     data=[go.Bar(x=xdata, y=ydata)],
+    fig = px.line(x=[1, 2, 3, 4], y=[1, 4, 9, 16], title=r'$\alpha_{1c} = 352 \pm 11 \text{ km s}^{-1}$')
+fig.update_layout(
+    xaxis_title=r'$\sqrt{(n_\text{c}(t|{T_\text{early}}))}$',
+    yaxis_title=r'$d, r \text{ (solar radius)}$'
+)
+     data=[go.Line (x=xdata, y=ydata)],
     # layout=go.Layout(
     #     title=go.layout.Title(text="A Figure Specified By A Graph Object",font_color="red")
     # )
