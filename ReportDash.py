@@ -17,7 +17,7 @@ ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
 ## https://github.com/andrevsl/SoCieForParaOPlayAndroidApp AppWeb para Android usando Webview to facilitate at first
 ## my workout management/organization/control/analysis as test
 ## Dash Firebase Deploy study https://github.com/andrevsl/DashDeployFirebase
-## Science VbT app using AI for Strength/Power Measurements, Bar Velocity, New Sensors
+## Science VbT app using AI for Strength/Power Measurements, Bar Velocity, Build Sensors
 
 
 fig = px.line(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
