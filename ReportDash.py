@@ -14,6 +14,8 @@ LBResumodata=LBResumodata[LBResumodata.Exercise=='ISOBulgSquat']
 LBResumodatISOBulgSq=LBResumodata.loc[:,['Unnamed: 2','Unnamed: 8']]
 xdata=LBResumodatISOBulgSq.loc[:,'Unnamed: 2']
 ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
+## https://github.com/andrevsl/SoCieForParaOPlayAndroidApp AppWeb para Android usando Webview to facilitate at first
+## my workout management/organization/control/analysis as test
 
 
 fig = px.line(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
