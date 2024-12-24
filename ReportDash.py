@@ -16,6 +16,7 @@ xdata=LBResumodatISOBulgSq.loc[:,'Unnamed: 2']
 ydata=LBResumodatISOBulgSq.loc[:,'Unnamed: 8']
 ## https://github.com/andrevsl/SoCieForParaOPlayAndroidApp AppWeb para Android usando Webview to facilitate at first
 ## my workout management/organization/control/analysis as test
+## https://www.xlathlete.com/blog/nutrition-facts-for-optimal-recovery/ (creaina dangerous peso x 0,06 g de creatina  Growth ref)
 
 
 fig = px.line(LBResumodatISOBulgSq, x="Unnamed: 2", y="Unnamed: 8")
